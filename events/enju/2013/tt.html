@@ -1,0 +1,98 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="学校法人 渋谷教育学園幕張高等学校・中学校の文化祭「槐(えんじゅ)祭」公式ウェブサイトです。">
+		<meta name="author" content="渋谷教育学園幕張高等学校・中学校　文化祭実行委員会　広報部">
+		<meta name="keywords" content="えんじゅさい,槐祭,しぶまく,渋幕,文化祭,渋谷幕張,29,渋谷教育学園,幕張中高,幕張中学,幕張中,幕張高校,幕張高">
+		<meta name="viewport" content="width=device-width">
+		<script type="text/javascript">
+			function init(){
+				clocknow();
+				setInterval('clocknow()',1000);
+			} 
+			function clocknow(){
+				//公開が8月、槐祭が9月である前提の上で動きます
+				cdmes="";
+				fes2ndday=15+31;
+				now=new Date();
+				md=(now.getMonth()-7)*31+now.getDate();h=now.getHours();m=now.getMinutes();s=now.getSeconds();
+				remain=fes2ndday-md;
+				if (h<10){h="0"+h;}
+				if (m<10){m="0"+m;}
+				if (s<10){s="0"+s;}
+				cdmes="2013年度の槐祭は終了しました。<br>ご来場ありがとうございました。";
+				/*
+				if(remain>1 && now.getYear()==2013){cdmes="槐祭1日目[関係者公開]まで "+(remain-1)+" 日<br>2日目[一般公開]まで"+(remain)+"日";}
+				if(remain==1){
+					cdmes="槐祭 １日目[関係者公開日]";
+				}
+				*/
+				document.getElementById("clockbox").style.display="block";
+				/*
+				if((remain==0)&&(h<15)){
+					cdmes="槐祭 ２日目[一般公開日]";
+					document.getElementById('tt1').style.display="none";					
+				}
+				if(((remain==0)||(remain==1))&&(h>=9)&&(h<15)){
+					document.getElementById('hari').style.display="block";
+					document.getElementById('hari').style.top=""+(135+(h-9)*108+m*1.8)+"px";
+
+				}else{
+				*/
+					document.getElementById('hari').style.display="none";
+				//}
+				document.getElementById("clock1").innerHTML=""+cdmes;
+				document.getElementById("clock2").innerText="現在時刻は"+h+":"+m+"です";
+				document.getElementById("clock2").textContent="現在時刻は"+h+":"+m+"です";
+			}
+		</script>
+		<link rel="stylesheet" href="./style_pc.css">
+		<title>第29回 槐祭 公式ウェブサイト</title>
+	</head>
+	<body onload="init()">
+		<div id="header">
+			<img src="./img/logo.png" alt="学校法人渋谷教育学園幕張高等学校・中学校" style="float:left;margin-right:10px;">
+			<h1 id="title">
+				第29回 <ruby>槐<rp>(</rp><rt>えんじゅ</rt><rp>)</rp></ruby> 祭 公式ウェブサイト
+			</h1>
+			<h3 id="title_2">2013年9月14日(土)[関係者のみ]・15日(日)[一般公開] 9:00-15:00</h3>
+		</div>
+		<div id="contents">
+			<div id="side_menu">
+				<a href="./index.html"><div id="item" class="li_top">槐祭TOP</div></a>
+				<a href="./attention.html"><div id="item" class="li_att">諸注意</div></a>
+				<a href="./principal.html"><div id="item" class="li_pri">校長より</div></a>
+				<a href="./student.html"><div id="item" class="li_stu">生徒より</div></a>
+				<a href="./list.html"><div id="item" class="li_lis">企画一覧</div></a>
+				<a href="#"><div id="item" class="li_tim current" style="letter-spacing:-4px;padding:0px;">タイムテーブル</div></a>
+				<a href="./map.html"><div id="item" class="li_map">校内地図</div></a>
+				<a href="./activity.html"><div id="item" class="li_act">活動の様子</div></a>
+				<a href="./access.html"><div id="item" class="li_acc">アクセス</div></a>
+				<hr>
+				<a href="http://www.shibumaku.jp/"><div id="item" class="sbmk_hp">渋谷幕張<br>HP TOP</div></a>
+			</div>
+			<div id="article" class="con_tim">
+				<h1>タイムテーブル</h1>
+				<div id="clockbox" style="font-size:2em;padding:8px;border:solid;margin:16px;display:none;">
+					<span id="clock1"></span><br>
+					<span id="clock2"></span>
+				</div>
+				<div id="hari" style="position:relative;display:none;">
+					<div style="border:solid;border-color:#F00;"></div>
+					<div style="float:right;font-size:1.5em;">現在時刻</div>
+				</div>
+				<img id="tt1" src="./img/tt_day1.jpg" alt="1日目　タイムテーブル">
+				<img id="tt2" src="./img/tt_day2.jpg" alt="2日目　タイムテーブル">
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<div id="footer">
+			IE9以上,Firefox,Chrome,Safariで表示できることを確認しております。 <br>
+			<address>All rights reserved by 渋谷教育学園幕張高等学校・中学校　第29回文化祭実行委員会. </address>
+		</div>
+	</body>
+</html>
+
+

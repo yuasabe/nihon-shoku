@@ -1,0 +1,30 @@
+div.picture1 {
+  width:220px;
+  height:190px;
+  text-align:center;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+div.picture2 {
+  width:220px;
+  height:190px;
+  text-align:center;
+  position:relative;
+  left:240px;
+  top:-190px;
+}
+
+.box{
+  height:200px;
+}
+
+h1 {
+  text-align:center;
+  letter-spacing:1ex;
+}
+
+body {
+  background-color:#ffccff;
+}

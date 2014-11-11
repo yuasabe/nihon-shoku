@@ -1,0 +1,76 @@
+/*
+このcssファイルは
+activities-detail.html
+に適用される
+*/
+
+
+
+div.paragraph {
+  margin:-1ex 0ex 0ex 5ex;
+}
+
+/*
+<div class="paragraph">～</div>において
+余白:上に-1ex 右に0ex 下に0ex 左に5ex
+*/
+
+
+
+div.minipara {
+  margin:0ex 0ex 0ex 4ex;
+}
+
+/*
+<div class="minipara">～</div>において
+余白:上に0ex 右に0ex 下に0ex 左に4ex
+*/
+
+
+
+body {
+  background-color:#ffff66;
+}
+
+/*
+<body>～</body>において
+背景色:#ffff66
+*/
+
+
+
+.standard  {
+  background-color:#ffff66;
+}
+
+/*
+<(何か) class="standard">～</(何か)>において
+背景色:#ffff66
+*/
+
+
+
+h1 {
+  text-align:center;
+  letter-spacing:1ex;
+}
+
+/*
+<h1>～</h1>において
+文字を寄せる:中央
+文字の間隔:1ex
+*/
+
+
+
+.bold1 {
+  text-align:right;
+  font-weight:bold;
+}
+
+/*
+<(何か) class="standard">～</(何か)>において
+文字を寄せる:右側
+文字の太さ:太字
+*/
+

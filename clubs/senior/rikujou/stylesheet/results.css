@@ -1,0 +1,42 @@
+/*
+このファイルは
+results.html
+に適用される
+*/
+
+
+
+h1 {
+  text-align:center;
+  letter-spacing:1ex;
+}
+
+/*
+<h1>～</h1>において
+文字を寄せる:中央
+文字の間隔:1ex
+*/
+
+
+
+body {
+  background-color:#ffccff;
+}
+
+/*
+<body>～</body>において
+背景色:#ffccff
+*/
+
+
+
+td {
+  width:260px;
+  text-align:center;
+}
+
+/*
+<td>～</td>
+幅:260px
+文字を寄せる:中央
+*/

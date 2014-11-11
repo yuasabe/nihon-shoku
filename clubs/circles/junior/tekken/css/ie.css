@@ -1,0 +1,175 @@
+/* ================================================================
+   IE向けスタイル
+   ================================================================ */
+
+/* ================================================================
+   Flexible Grid Sytem
+   - Based on Foundation "The Grid" http://foundation.zurb.com/
+   ================================================================ */
+
+/* IE8以下向けのページ幅指定 */
+.lt-ie9 .row { width: 1140px; min-width: 1140px; }
+.lt-ie9 .row .row { width: auto; min-width: 0; }
+
+/* IE7以下向けカラム幅指定 */
+.lt-ie8 .row .one { width: 6.5351%; }
+.lt-ie8 .row .two { width: 14.8684%; }
+.lt-ie8 .row .three { width: 23.2018%; }
+.lt-ie8 .row .four { width: 31.5351%; }
+.lt-ie8 .row .five { width: 39.8684%; }
+.lt-ie8 .row .six { width: 48.2018%; }
+.lt-ie8 .row .seven { width: 56.5351%; }
+.lt-ie8 .row .eight { width: 64.8684%; }
+.lt-ie8 .row .nine { width: 73.2018%; }
+.lt-ie8 .row .ten { width: 81.5351%; }
+.lt-ie8 .row .eleven { width: 88.8684%; }
+.lt-ie8 .row .twelve { width: 98.2018%; }
+
+/* 入れ子のカラム幅調整 */
+.lt-ie8 .twevle .one { width: 6.5343% ; }
+.lt-ie8 .twevle .two { width: 14.8677% ; }
+.lt-ie8 .twevle .three { width: 23.2010% ; }
+.lt-ie8 .twevle .four { width: 31.5343% ; }
+.lt-ie8 .twevle .five { width: 39.8677% ; }
+.lt-ie8 .twevle .six { width: 48.2010% ; }
+.lt-ie8 .twevle .seven { width: 56.5343% ; }
+.lt-ie8 .twevle .eight { width: 64.8677% ; }
+.lt-ie8 .twevle .nine { width: 73.2010% ; }
+.lt-ie8 .twevle .ten { width: 81.5343% ; }
+.lt-ie8 .twevle .eleven { width: 89.8677% ; }
+.lt-ie8 .twevle .twelve { width: 98.201% ; }
+
+.lt-ie8 .eleven .one { width: 6.3747%; }
+.lt-ie8 .eleven .two { width: 14.7080%; }
+.lt-ie8 .eleven .three { width: 23.0413%; }
+.lt-ie8 .eleven .four { width: 31.3747%; }
+.lt-ie8 .eleven .five { width: 39.7080%; }
+.lt-ie8 .eleven .six { width: 48.0413%; }
+.lt-ie8 .eleven .seven { width: 56.3747%; }
+.lt-ie8 .eleven .eight { width: 64.7080%; }
+.lt-ie8 .eleven .nine { width: 73.0413%; }
+.lt-ie8 .eleven .ten { width: 81.3747%; }
+.lt-ie8 .eleven .eleven { width: 89.7080%; }
+.lt-ie8 .eleven .twelve { width: 98.0413%; }
+
+.lt-ie8 .ten .one { width: 6.1831%; }
+.lt-ie8 .ten .two { width: 14.5164%; }
+.lt-ie8 .ten .three { width: 22.8498%; }
+.lt-ie8 .ten .four { width: 31.1831%; }
+.lt-ie8 .ten .five { width: 39.5164%; }
+.lt-ie8 .ten .six { width: 47.8498%; }
+.lt-ie8 .ten .seven { width: 56.1831%; }
+.lt-ie8 .ten .eight { width: 64.5164%; }
+.lt-ie8 .ten .nine { width: 72.8498%; }
+.lt-ie8 .ten .ten { width: 81.1831%; }
+.lt-ie8 .ten .eleven { width: 89.5164%; }
+.lt-ie8 .ten .twelve { width: 97.8498%; }
+
+.lt-ie8 .nine .one { width: 5.9489%; }
+.lt-ie8 .nine .two { width: 14.2823%; }
+.lt-ie8 .nine .three { width: 22.6156%; }
+.lt-ie8 .nine .four { width: 30.9489%; }
+.lt-ie8 .nine .five { width: 39.2823%; }
+.lt-ie8 .nine .six { width: 47.6156%; }
+.lt-ie8 .nine .seven { width: 55.9489%; }
+.lt-ie8 .nine .eight { width: 64.2823%; }
+.lt-ie8 .nine .nine { width: 72.6156%; }
+.lt-ie8 .nine .ten { width: 80.9489%; }
+.lt-ie8 .nine .eleven { width: 89.2823%; }
+.lt-ie8 .nine .twelve { width: 97.6156%; }
+
+.lt-ie8 .eight .one { width: 5.6562%; }
+.lt-ie8 .eight .two { width: 13.9895%; }
+.lt-ie8 .eight .three { width: 22.3228%; }
+.lt-ie8 .eight .four { width: 30.6562%; }
+.lt-ie8 .eight .five { width: 38.9895%; }
+.lt-ie8 .eight .six { width: 47.3228%; }
+.lt-ie8 .eight .seven { width: 55.6562%; }
+.lt-ie8 .eight .eight { width: 63.9895%; }
+.lt-ie8 .eight .nine { width: 72.3228%; }
+.lt-ie8 .eight .ten { width: 80.6562%; }
+.lt-ie8 .eight .eleven { width: 88.9895%; }
+.lt-ie8 .eight .twelve { width: 97.3228%; }
+
+.lt-ie8 .seven .one { width: 5.2797%; }
+.lt-ie8 .seven .two { width: 13.6130%; }
+.lt-ie8 .seven .three { width: 21.9464%; }
+.lt-ie8 .seven .four { width: 30.2797%; }
+.lt-ie8 .seven .five { width: 38.6130%; }
+.lt-ie8 .seven .six { width: 46.9464%; }
+.lt-ie8 .seven .seven { width: 55.2797%; }
+.lt-ie8 .seven .eight { width: 63.6130%; }
+.lt-ie8 .seven .nine { width: 71.9464%; }
+.lt-ie8 .seven .ten { width: 80.2797%; }
+.lt-ie8 .seven .eleven { width: 88.6130%; }
+.lt-ie8 .seven .twelve { width: 96.9464%; }
+
+.lt-ie8 .six .one { width: 4.7776%; }
+.lt-ie8 .six .two { width: 13.1110%; }
+.lt-ie8 .six .three { width: 21.4443%; }
+.lt-ie8 .six .four { width: 29.7776%; }
+.lt-ie8 .six .five { width: 38.1110%; }
+.lt-ie8 .six .six { width: 46.4443%; }
+.lt-ie8 .six .seven { width: 54.7776%; }
+.lt-ie8 .six .eight { width: 63.1110%; }
+.lt-ie8 .six .nine { width: 71.4443%; }
+.lt-ie8 .six .ten { width: 79.7776%; }
+.lt-ie8 .six .eleven { width: 88.1110%; }
+.lt-ie8 .six .twelve { width: 96.4443%; }
+
+.lt-ie8 .five .one { width: 4.0745%; }
+.lt-ie8 .five .two { width: 12.4078%; }
+.lt-ie8 .five .three { width: 20.7412%; }
+.lt-ie8 .five .four { width: 29.0745%; }
+.lt-ie8 .five .five { width: 37.4078%; }
+.lt-ie8 .five .six { width: 45.7412%; }
+.lt-ie8 .five .seven { width: 54.0745%; }
+.lt-ie8 .five .eight { width: 62.4078%; }
+.lt-ie8 .five .nine { width: 70.7412%; }
+.lt-ie8 .five .ten { width: 79.0745%; }
+.lt-ie8 .five .eleven { width: 87.4078%; }
+.lt-ie8 .five .twelve { width: 95.7412%; }
+
+.lt-ie8 .four .one { width: 3.0194%; }
+.lt-ie8 .four .two { width: 11.3527%; }
+.lt-ie8 .four .three { width: 19.6860%; }
+.lt-ie8 .four .four { width: 28.0194%; }
+.lt-ie8 .four .five { width: 36.3527%; }
+.lt-ie8 .four .six { width: 44.6860%; }
+.lt-ie8 .four .seven { width: 53.0194%; }
+.lt-ie8 .four .eight { width: 61.3527%; }
+.lt-ie8 .four .nine { width: 69.6860%; }
+.lt-ie8 .four .ten { width: 78.0194%; }
+.lt-ie8 .four .eleven { width: 86.3527%; }
+.lt-ie8 .four .twelve { width: 94.6860%; }
+
+/* IE7以下向けCollapse用の幅 */
+.lt-ie8 .row.collapse .one { width: 8.287%; }
+.lt-ie8 .row.collapse .two { width: 16.66%; }
+.lt-ie8 .row.collapse .three { width: 24.957%; }
+.lt-ie8 .row.collapse .four { width: 33.33%; }
+.lt-ie8 .row.collapse .five { width: 41.66%; }
+.lt-ie8 .row.collapse .six { width: 50%; }
+.lt-ie8 .row.collapse .seven { width: 58.33%; }
+.lt-ie8 .row.collapse .eight { width: 66.66%; }
+.lt-ie8 .row.collapse .nine { width: 74.957%; }
+.lt-ie8 .row.collapse .ten { width: 83.33%; }
+.lt-ie8 .row.collapse .eleven { width: 91.66%; }
+.lt-ie8 .row.collapse .twelve { width: 100%; }
+
+
+/* ================================================================
+   Other Adjustments
+   ================================================================ */
+
+/* IE6向け画像の調整 */
+.lt-ie7 img.trans-png { width: auto; }
+
+/* IE6向けツールバーの調整 */
+#tbar { overflow: hidden; width: 100%; }
+
+/* IE6向けのナビゲーションの高さ指定 */
+.lt-ie7 #mainnavi { height: 100%; }
+
+/* IE6向け入トップページのボタンの調整 */
+#main .top-buttons a { height: 100%; }

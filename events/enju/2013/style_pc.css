@@ -1,0 +1,343 @@
+﻿@charset "utf-8";
+
+aside, details, figcaption, figure, hgroup, nav, section { display: block; }
+canvas {
+	display: inline-block;
+}
+
+html {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+html, button, input, select, textarea {
+	font-family: sans-serif;
+	color: #222;
+}
+
+body  {
+	color: #000000;
+	text-shadow: 1px 1px 1px #BBB;
+	background-size: cover;
+	background-color:#f1f2ed;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header, #footer{
+	margin: 16px auto;
+	padding: 16px 8px;
+	width: 1008px;
+	display: block;
+	clear : both;
+}
+
+#header, #footer {
+	background-color: #EEE;
+	color:#222;
+	border: solid 2px #667;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	border-radius: 16px;
+}
+
+#header{
+	padding: 16px 8px 32px 8px !important;
+	background-color: rgba(208,208,208,0.5);
+	background:url(./img/sbmkimage2.jpg) no-repeat;
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+#con_top a {
+	border-radius: 8px;
+	padding: 1px;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #E8E8F8;
+	color : #112;
+	cursor:pointer;
+}
+
+a[href^="http"] {
+	border : 2px solid rgba(255,255,255,0.5);
+}
+
+a[href^="http"]:before {
+	content: "外部リンク ";
+	color : rgba(128,128,128,0.9);	
+}
+
+a[href^="http://www.shibumaku.jp/"] {
+	border :0px;
+}
+
+a[href^="http://www.shibumaku.jp/"]:before {
+	content: "";
+	color : rgba(0,0,0,1);	
+}
+
+#side_menu {
+	width:17%;
+	float:left;
+}
+
+#side_menu {
+	box-shadow: 8px 8px 4px rgba(0,0,0,0.2);
+}
+
+#item{
+	margin:10px 0px;
+	padding: 0px 16px;
+	text-shadow: none;
+	text-align: left;
+	border-radius: 8px;
+	line-height: 2.5;
+	font-size : 1.5em;
+	font-weight:500;
+	font-family:"ヒラギノ明朝","ＭＳ 明朝",serif;
+	font-weight: bolder;
+	background-color: #FFF;
+}
+
+#item:hover{
+	background-color: #DDE;
+}
+
+.li_top{
+	border-left:20px solid #F77
+}
+.li_att{
+	border-left:20px solid #F7F;
+}
+.li_pri{
+	border-left:20px solid #B7F;
+}
+.li_stu{
+	border-left:20px solid #77F;
+}
+.li_lis{
+	border-left:20px solid #7FF;
+}
+.li_tim{
+	border-left:20px solid #7F7;
+}
+.li_map{
+	border-left:20px solid #BF7;
+}
+.li_act{
+	border-left:20px solid #FF7;
+}
+.li_acc{
+	border-left:20px solid #FB7;
+}
+
+#side_menu, #article, #aside {
+	text-align: left;
+	margin: 8px;
+	border-radius: 8px;
+	vertical-align: top;
+}
+
+#side_menu, #article, #aside {
+	background-color: rgba(224,224,224,0.5);
+}
+
+#article, #aside {
+	padding: 8px;
+}
+
+#side_menu{
+	padding: 16px;
+}
+
+#article {
+	width:70%;
+	padding:8px;
+	border-radius: 8px;
+	float:right;
+}
+
+#article {
+	box-shadow :  4px 4px 4px rgba(0,0,16,0.2);
+}
+
+.con_top{
+	border : solid 4px #F00;
+}
+.con_att{
+	border : solid 4px #F0F;
+}
+.con_pri{
+	border : solid 4px #70F;
+}
+.con_stu{
+	border : solid 4px #00F;
+}
+.con_lis{
+	border : solid 4px #0FF;
+}
+.con_tim{
+	border : solid 4px #0F0;
+}
+.con_map{
+	border : solid 4px #7F0;
+}
+.con_act{
+	border : solid 4px #FF0;
+}
+.con_acc{
+	border : solid 4px #F70;
+}
+
+#aside {
+	margin: 8px;
+	padding: 8px;
+	width:auto;
+	float:right;
+	display:inline;
+}
+
+#aside {
+	background-color: rgba(192,192,192,0.5);
+	border : solid 4px rgba(64,64,64,0.5);
+}
+
+#article > p {
+	width: 700px;
+	padding:16px;
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	margin: 4px 0;
+	padding: 0;
+}
+
+hr {
+	border-top: 1px solid #ccc;
+}
+
+pre, code, kbd, samp {
+	font-family: monospace, serif;
+	_font-family: 'IPA gothic', monospace;
+	font-size: 1em;
+	text-shadow: none;
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.current {
+	background-color:#BBD !important;
+}
+
+#contents {
+	margin: 8px auto;
+	text-align:center;
+	overflow: visible;
+	width: 1044px;
+}
+
+#title {
+	margin: 0;
+}
+
+#title_2{
+	float:right;
+	margin:0px;
+	color:#444;
+	text-align:right;
+	background-color:rgba(255,255,255,0.5);
+	width:620px;
+}
+
+#message{
+	padding:16px;
+	margin:16px 16px;
+	border : solid 4px rgba(64,64,64,0.5);
+	border-radius: 8px;
+	background-color:#FFF;
+}
+
+.message{
+	padding:16px;
+	margin:16px 16px;
+	border : solid 4px rgba(64,64,64,0.5);
+	border-radius: 8px;
+	background-color:#FFF;
+}
+
+.sbmk_hp{
+	margin-top:32px !important;
+	border-left:20px solid #000;
+	line-height:1 !important;
+	padding:16px !important;
+}
+
+input{
+	width:250px;
+	height:30px;
+	font-size:2em;
+	margin:16px;
+}
+
+select{
+	width:150px;
+	height:50px;
+	font-size:2em;
+	margin:16px;
+}
+
+thead{
+	cursor:pointer;
+}
+
+tr.odd{
+	background-color:#BEE4F8;
+	cursor:pointer;
+}
+
+tr.even{
+	background-color:#EEE;
+	cursor:pointer;
+}
+
+.sorting{
+	background-image: url("./img/nosort.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.sorting_asc{
+	background-image: url("./img/asc.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.sorting_desc{
+	background-image: url("./img/desc.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.paginate_active {
+	padding:0px 16px;
+	font-size:2em;
+}
+
+.paginate_button{
+	padding:0px 16px;
+	font-size:2em;
+}

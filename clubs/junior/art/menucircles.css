@@ -1,0 +1,158 @@
+/* Menu */
+
+#circle1 {
+	position: relative;
+		top: 210px;
+	background-color: #C6FF51;
+	border: double 5px #1AE846;
+	font-size: 13px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 26px 8px 26px 8px;
+	color: #008E00;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
+	transition: all 0.5s ease-out;
+}
+#circle1:hover {
+	background-color: #1AE846;
+}
+
+
+
+#circle2 {
+	position: relative;
+		top: 135px;
+		right: 45px;
+	background-color: #00FFFF;
+	border: double 5px #27BFFF;
+	font-size: 13px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 26px 0px 26px 0px;
+	color: #2765FF;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
+	transition: all 0.5s ease-out;
+}
+#circle2:hover{
+	background-color: #27BFFF;
+}
+
+
+
+#circle3 {
+	position: relative;
+		top: 75px;
+		right: 65px;
+	background-color: #FFCCCC;
+	border: double 5px #FF99CC;
+	font-size: 13px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 24px 11px 24px 11px;
+	color: #FF33CC;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
+	transition: all 0.5s ease-out;
+}
+#circle3:hover{
+	background-color: #FF99CC;
+}
+
+
+
+#circle4 {
+	position: relative;
+		top: 45px;
+		right: 60px;	
+	background-color: #FFFF99;
+	border: double 5px #FFC94C;
+	font-size: 13px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 25px 7px 25px 7px;
+	color: #FF6F00;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
+	transition: all 0.5s ease-out;
+}
+#circle4:hover{
+	background-color: #FFC94C;
+}
+
+
+
+#circle5 {
+	position: relative;
+		top: 33px;
+		right: 55px;
+	background-color: #CCCCFF;
+	border: double 5px #CC66FF;
+	font-size: 13px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 26px 6px 26px 6px;
+	color: #9900CC;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
+	transition: all 0.5s ease-out;
+}
+#circle5:hover{
+	background-color: #CC66FF;
+}
+
+/* end */
+
+
+
+/* Decoration */
+
+.deco1 {
+	position: absolute;
+		top: 30px;
+		right: 40px;
+	background-color: #D0FFA9;
+	padding: 70px 76px 70px 76px;
+	border-radius: 150px;
+}
+
+.deco2 {
+	position: absolute;
+		top: 120px;
+		right: 130px;
+	background-color: #A9F9FF;
+	padding: 40px 46px 40px 46px;
+	border-radius: 150px;
+}
+
+.deco3 {
+	position: absolute;
+		top: 35px;
+		right: 160px;
+	background-color: #FFCBE9;
+	padding: 50px 56px 50px 56px;
+	border-radius: 150px;
+}
+
+.deco4 {
+	position: absolute;
+		top: 85px;
+		right: 240px;
+	background-color: #FFF9CB;
+	padding: 60px 66px 60px 66px;
+	border-radius: 150px;	
+}
+
+.deco5 {
+	position: absolute;
+		top: 95px;
+		right: 360px;
+	background-color: #F0CBFF;
+	padding: 35px 41px 35px 41px;
+	border-radius: 150px;		
+}
+
+.deco6 {
+	position: absolute;
+		top: 140px;
+		right: 190px;
+	background-color: white;
+	padding: 53px 59px 53px 59px;
+	border-radius: 150px;	
+}

@@ -1,0 +1,148 @@
+/*! http://responsiveslides.com v1.32 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+
+/* ================================================================
+   カスタム・スタイル
+   ================================================================ */
+
+.box-slide {
+  margin: 1em 0;
+}
+
+.top-slide img {
+  position: relative;
+  z-index: 1;
+}
+
+/* キャプションのスタイル */
+#main .top-slide .caption {
+  display: block;
+  margin: 0;
+  padding: 0.8em;
+  max-width: none;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  background: rgba(0,0,0, .8);
+  font-size: 1em;
+  color: #fff;
+}
+.top-slide .caption a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* ----------
+   前後ナビのスタイル
+   ---------- */
+.top-slide_nav {
+  position: absolute;
+  top: 52%;
+  left: 10px;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../img/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  z-index: 3;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  opacity: 0.7;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.top-slide_nav:active {
+  opacity: 1.0;
+}
+.top-slide_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 10px;
+}
+
+/* スライド横プロモコンテンツ */
+.slide-aside {
+  padding: 1em;
+}
+#main .slide-aside p {
+  margin: 1em 0;
+  padding: 1.2em 1em;
+  background: #ddd;
+}
+
+/* ----------
+   スライド用メディアクエリ
+   ---------- */
+@media screen and (max-width:48em){
+  /* スライド横プロモコンテンツのスタイル */
+  .slide-aside { padding: 0; }
+
+  #main .slide-aside p {
+    margin: 0 0 1em;
+    width: 33.3333%;
+    border-left: 0.5em solid #fff;
+    border-right: 0.5em solid #fff;
+    float: left;
+  }
+}
+
+@media screen and (max-width:38em){
+  /* スライド横プロモコンテンツのスタイル */
+  #main .slide-aside p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:34em){
+  /* スライド横プロモコンテンツのスタイル */
+  #main .slide-aside p {
+    width: 100%;
+    float: none;
+  }
+
+  /* キャプションのスタイルの調整 */
+  #main .top-slide .caption {
+    position: relative;
+    padding: 0.6em;
+    font-size: 0.8em;
+    background: rgba(0,0,0, 1);
+  }
+  .rslides img { float: none; }
+  
+  /* 小さい画面でのナビゲーションの非表示 */
+  .top-slide_nav { display: none; }
+}

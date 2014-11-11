@@ -1,0 +1,58 @@
+body  {
+  background-color:#ccffff;
+}
+
+.standardex {
+  font-size:large;
+  font-weight:600;
+  margin:10px 10% 10px 10ex;
+  line-height:300%;
+  background-color:#ccffff;
+}
+
+div#top {
+  text-align:center;
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:x-large;
+  letter-spacing:0.5ex;
+  line-height:150%;
+}
+
+a#link {
+  font-style:italic;
+}
+
+div.picture1 {
+  width:210px;
+  height:190px;
+  text-align:center;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+div.picture2 {
+  width:210px;
+  height:190px;
+  text-align:center;
+  position:relative;
+  left:220px;
+  top:-190px;
+}
+
+.box1{
+  height:200px;
+  width:430px;
+  position:absolute;
+  right:5ex;
+  top:40ex;  
+}
+
+.box2{
+  height:200px;
+  width:430px;
+  position:absolute;
+  right:5ex;
+  top:85ex;  
+}

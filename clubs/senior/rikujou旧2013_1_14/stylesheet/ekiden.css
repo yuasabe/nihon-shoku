@@ -1,0 +1,21 @@
+table.normal1 {
+  border-collapse:collapse;
+  height:1em;
+  width:64.5em;
+  table-layout:fixed;
+}
+
+table.normal2 {
+  border-collapse:collapse;
+  height:1em;
+  width:52.5em;
+  table-layout:fixed;
+}
+
+col.year {width:3.5em;}
+
+col.title {width:5em;}
+
+col.name {width:7em;}
+
+col.time {width:7em;}

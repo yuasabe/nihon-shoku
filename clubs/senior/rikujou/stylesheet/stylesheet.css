@@ -1,0 +1,73 @@
+/*
+このcssファイルは
+全てのhtmlファイルに
+適用される
+*/
+
+
+
+body {
+  line-height:150%; 
+  font-family:"MS Pｺﾞｼｯｸ",sans-serif;
+}
+
+/*
+<body>～</body>において
+行間:150%
+フォント:MS Pゴシック,無い場合ゴシック系
+*/
+
+
+
+p { margin:0px 0px 0px 1em; }
+
+/*
+<p>～</p>において
+余白:上に0px 右に0px 下に0px 左に1em
+*/
+
+
+
+.standard {
+  margin:10px 10% 10px 3%;
+  line-height:200%;
+  background-color:#ffffff;
+}
+
+/*
+<(何か) class="standard">～</(何か)>において
+余白:上に10px 右を10% 下に10px 左を3%
+行間:200%
+背景色:#ffffff(カラーネーム)
+*/
+
+
+
+.records{
+  background-color:#66ccff;
+  font-family:"JSｺﾞｼｯｸ";
+}
+
+/*
+<(何か) class="records">～</(何か)>において
+背景色:#66ccff(カラーネーム)
+フォント:JSゴシック
+*/
+
+
+
+.height5{height:1%;}
+
+/*
+<(何か) class="height5">～</(何か)>において
+そのものの高さ:1%
+*/
+
+
+
+.bold {font-weight:bold;}
+
+/*
+<(何か) class="bold">～</(何か)>において
+文字の太さ:太字
+*/
